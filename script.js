@@ -34,27 +34,6 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
-// "Back to top" button functionality
-const backToTopBtn = document.getElementById('back-to-top');
-
-if (backToTopBtn) {
-    window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 100) {
-            backToTopBtn.style.display = 'block';
-        } else {
-            backToTopBtn.style.display = 'none';
-        }
-    });
-
-    backToTopBtn.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    });
-}
-
-
 // Dropdown functionality
 document.querySelectorAll('.dropbtn').forEach(button => {
     button.addEventListener('click', function() {
@@ -78,3 +57,26 @@ document.addEventListener('click', function(event) {
         });
     }
 });
+
+// Back to Top Button Functionality
+const backToTopButton = document.getElementById('back-to-top');
+
+window.onscroll = function() {
+    if (window.pageYOffset > 300) {
+        backToTopButton.style.display = 'block';
+    } else {
+        backToTopButton.style.display = 'none';
+    }
+};
+
+backToTopButton.addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+// Dynamic Year Update in Footer
+const yearSpan = document.getElementById('year');
+const currentYear = new Date().getFullYear();
+yearSpan.textContent = currentYear;

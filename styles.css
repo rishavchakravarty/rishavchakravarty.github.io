@@ -15,7 +15,9 @@ a {
 
 /* Header Styling */
 .header {
-    background-color: #ffffff;
+    background-image: url('images/header_bg.png');
+    background-size: cover; /* Cover ensures the image covers the whole header */
+    background-position: center; /* Centers the image */
     padding: 20px 0;
     text-align: center;
     color: #000000;
@@ -24,10 +26,12 @@ a {
 .header h1 {
     margin: 0;
     font-size: 36px;
+    color: #000000;
 }
 
 .header p {
     font-size: 18px;
+    color: #000000;
 }
 
 /* Navigation Bar Styling */
@@ -166,17 +170,31 @@ footer a {
 }
 
 /* Back to top button */
+/* Back to Top Button Styling */
 #back-to-top {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #007bff;
-    color: #fff;
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 20px;
+    display: none; /* Initially hidden */
+    position: fixed; /* Fixed position */
+    bottom: 30px; /* 30px from the bottom */
+    right: 30px; /* 30px from the right */
+    background-color: #404448; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 50%; /* Circular shape */
+    padding: 15px; /* Padding around the text */
+    cursor: pointer; /* Cursor pointer on hover */
+    font-size: 18px; /* Font size of the text */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Shadow for 3D effect */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+#back-to-top:hover {
+    background-color: #000000; /* Darker shade of blue on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+/* Additional styling for smooth scroll effect */
+html {
+    scroll-behavior: smooth;
 }
 
 .padded-paragraph {
