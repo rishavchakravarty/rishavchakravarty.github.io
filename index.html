@@ -1,104 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="./styles.css">
+    <title>Rishav Chakravarty</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <h1>RISHAV CHAKRAVARTY</h1>
-            <nav>
-                <a href="#about">About</a>
-                <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </div>
+    <header class="header">
+        <h1>Rishav Chakravarty</h1>
+        <p>B.Sc Psychology | Computer Science Minor | Human Computer Interaction Minor</p>
     </header>
-    <section class="intro-section" 
-        <div class="intro-backdrop">
-            <div class="content-wrapper"> <!-- Add this wrapper -->
-                <div class="intro-text">
-                    <img src="profile.jpg" alt="profile" class="intro-image">
-                    <p style="color: white;">Psychology Major, CS Minor</p>
-                    
-                </div>
-                <div class="intro-about" id="about">
-                    <h2>About Me</h2>
-                    <p>I am a Senior Undergraduate majoring in Psychology with a minor in Computer Science, dedicated to bridging the gap between human cognition and technological innovation. My goal is to use my skills to further drive the advancements that are both technologically robust and psychologically informed. I am currently looking for a job or an internship to further my knowledge and skills.</p>
-                </div>
-              </div>
-        </div>
-    </section>
-    
-    
-    <section id="experience">
-        <h2>Professional Experience</h2>
-        <div class="timeline">
-            <!-- Experience 1 -->
-            <div class="timeline-item">
-                <div class="timeline-date">Mar 2021 - May 2021</div>
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>Internship at ZAD Holding Company</h3>
-                    <p><strong>Location:</strong> Doha, Qatar</p>
-                    <p>Optimized productivity and reduced workloads by building datasets and databases for ZAD Holding company.</p>   
-                </div>
-            </div>
-            <!-- Experience 2 -->
-            <div class="timeline-item">
-                <div class="timeline-date">May 2021 - Aug 2021</div>
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>Internship at Ooredoo: Telecom and ICT</h3>
-                    <p><strong>Location:</strong> Doha, Qatar</p>
-                    <p>Worked on a project to statistically analyse and create a variable phone plan that would suit the exact needs of the user.</p>   
-                </div>
-            </div>
-            <!-- Experience 3 -->
-            <div class="timeline-item">
-                <div class="timeline-date">Aug 2018 - Present</div>
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>Student Manager</h3>
-                    <p><strong>Location:</strong> Blacksburg, Virginia, United States</p>
-                    <p>Working at D2/DX, fast-paced dining establishment. I led and directed a diverse team, managing multiple operations. I oversee daily operations, ensuring optimal functionality of all aspects of our dining service.</p>   
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="job">
-            <ul>
-                <li>Machine learning program exploring of self driving (Jul 2022 - Nov 2022)</li>
-                <li>AI Calendar Scheduler App (Ongoing)</li>
-                <li>Neurodivergent Network Platform (Ongoing)</li>
-            </ul>
-        </div>
-    </section>
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <!-- More navigation items can be added here -->
+        </ul>
+    </nav>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <div class="job">
-            <p>Blacksburg, Virginia<br>+1 443-214-4881<br><a href="mailto:rishavc18@vt.edu" style="color: rgb(0, 0, 0); text-decoration: none;">rishavc18@vt.edu</a></p>
-        </div>
-    </section>
-    
+    <div class="container">
+        <section class="main-section">
+            <h2>What I have been up to...</h2>
+            <div class="tile-container">
+                <!-- Tile 1 -->
+                <a href="portfolio.html#gdsc" class="tile">
+                    <img src="images/gdsc-social-share.png" alt="Description of image 1">
+                    <p>Talks at the Google Student Developer Club</p>
+                </a>
+            
+                <!-- Tile 2 -->
+                <a href="portfolio.html#ibm" class="tile">
+                    <img src="images/ibm.png" alt="Description of image 2">
+                    <p>IBM Zxplore training</p>
+                </a>
+                <!-- Tile 3 -->
+                <a href="portfolio.html#zad" class="tile">
+                    <img src="images/zad.jpeg" alt="Description of image 1">
+                    <p>Internship at ZAD Holding Company</p>
+                </a>
+            
+                <!-- Tile 4 -->
+                <a href="portfolio.html#ooredoo" class="tile">
+                    <img src="images/ooredoo.png" alt="Description of image 2">
+                    <p>Internship at Ooredoo</p>
+                </a>
+                <!-- Tile 5 -->
+                <a href="portfolio.html#dining" class="tile">
+                    <img src="images/dining.png" alt="Description of image 1">
+                    <p>Student Manager in Virginia Tech Dining Services</p>
+                </a>
+                <!-- Tile 6 -->
+                <a href="portfolio.html#measmi" class="tile">
+                    <img src="images/meAsmi.png" alt="Description of image 1">
+                    <p>Co-developer for MeAsmi 2.0</p>
+                </a>  
+                <!-- Tile 7 -->
+                <a href="portfolio.html#eventualists" class="tile">
+                    <img src="images/eventualists.png" alt="Description of image 1">
+                    <p>Co-developer for Eventualists, an AI Calendar app</p>
+                </a>      
+                <!-- Tile 8 -->
+                <a href="portfolio.html#driving" class="tile">
+                    <img src="images/self_driving.png" alt="Description of image 1">
+                    <p>Exploring self-driving cars through Machine Learning</p>
+                </a> 
+                <!-- More tiles can be added here -->
+            </div>
+        </section>
+    </div>
 
     <footer>
         <p>&copy; 2023 by Rishav Chakravarty. All rights reserved.</p>
-    <a href="https://www.linkedin.com/in/rishav-chakravarty-93481b24a/">LinkedIn</a> |
+    <a href="https://www.linkedin.com/in/rishav-chakravarty-93481b24a/" target="_blank">LinkedIn</a> |
     <a href="https://github.com/rishavchakravarty" target="_blank">GitHub</a> |
-    <a href="https://discord.gg/SGEs9WBT3E" target="_blank">Discord</a> |
+    <a href="https://discord.com/invite/PUsmtpFjfE" target="_blank">Discord</a> |
     </footer>
 
-    <div id="back-to-top">↑</div>
-
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
