@@ -284,3 +284,91 @@ html {
         width: 100%; /* Full width on small screens */
     }
 }
+
+
+/* GitHub Projects */
+.github-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project-tile {
+    width: calc(50% - 20px);
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.project-tile img {
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 600px) {
+    .project-tile {
+        width: 100%;
+    }
+}
+
+.license-item a {
+    display: block;
+    text-decoration: none;
+    color: inherit; /* Ensure the text color remains the same */
+}
+
+.course-lists {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.course-lists ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.course-lists ul li {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.licenses-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.license-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.license-item {
+    margin-bottom: 20px; /* Space between each item */
+    text-align: center;
+}
+
+.license-img {
+    max-width: 100px; /* Adjust as needed */
+    height: auto;
+    border-radius: 5px; /* Optional, for rounded corners */
+    margin-bottom: 10px; /* Space between image and caption */
+}
+
+figcaption {
+    margin-bottom: 5px;
+}
+
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
