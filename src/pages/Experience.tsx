@@ -11,9 +11,9 @@ export function Experience() {
       location: "Boston, Massachusetts",
       duration: "Mar 2025 - June 2025",
       type: "Contract",
-      description: "As a Digital Strategy Consultant for Simple Coaching Inc., I analyze client journeys, optimize content and UX, and collaborate on new wellness service models—leveraging SEO, performance analytics, and website enhancements to strengthen engagement and drive growth.",
+      description: "As a Digital Strategy Consultant for Simple Coaching Inc., I analyzed client journeys, optimized content and UX, and collaborated on new wellness service models—leveraging SEO, performanced analytics, and website enhancements to strengthen engagement and drive growth.",
       achievements: [
-        "Conducted client behavior",
+        "Conducted client behavior analysis",
         "Spearheaded a website redesign",
         "Implemented SEO and analytics measures",
         "Co-designed and launched new mental-health workshop models",
@@ -28,7 +28,7 @@ export function Experience() {
       location: "Blacksburg, VA",
       duration: "May 2024 - Current",
       type: "Part-time",
-      description: "As a Behavioral Data Analyst at CalendAI, I merge computer science and psychology to build and A/B-test smart scheduling features. I design predictive models, analyze user behaviors, and work with cross-functional teams to personalize calendar recommendations while ensuring ethical data practices.",
+      description: "As a Behavioral Data Analyst at CalendAI, I merged computer science and psychology to build and A/B-test smart scheduling features. I designed predictive models, analyzed user behaviors, and work with cross-functional teams to personalize calendar recommendations while ensuring ethical data practices.",
       achievements: [
         "Developed and deployed A/B tests that increased feature adoption and user engagement",
         "Built predictive scheduling algorithms tailored to individual behavior patterns",
@@ -45,7 +45,7 @@ export function Experience() {
       location: "Gurgaon, India",
       duration: "Mar 2024 - Present",
       type: "Part-time",
-      description: "As a Cognitive Systems Engineer at MeAsmi, I lead ML-powered research and platform development to support neurodivergent individuals. I design data pipelines, integrate unsupervised and supervised learning models, and collaborate with psychologists and therapists to turn raw data into actionable insights.",
+      description: "As a Cognitive Systems Engineer at MeAsmi, I lead ML-powered research and platform development to support neurodivergent individuals. I designed data pipelines, integrated unsupervised and supervised learning models, and collaborated with psychologists and therapists to turn raw data into actionable insights.",
       achievements: [
         "Built end-to-end data workflows collecting and processing diagnosis, symptom, and therapy-efficacy records",
         "Developed clustering algorithms that group similar cases and predictive models that forecast therapy outcomes",
