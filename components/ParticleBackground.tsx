@@ -84,7 +84,7 @@ export function ParticleBackground() {
             delay: i * 3
           }}
         >
-          ॐ
+          🐦‍🔥
         </motion.div>
       ))}
     </div>
