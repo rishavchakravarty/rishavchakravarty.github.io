@@ -35,7 +35,7 @@ export function Layout({ children }: LayoutProps) {
               className="text-2xl font-bold text-white"
             >
               <span className="bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">
-                ॐ
+                🐦‍🔥
               </span>
             </motion.div>
 

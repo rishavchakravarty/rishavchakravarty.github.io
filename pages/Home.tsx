@@ -116,7 +116,7 @@ export function Home() {
                   }}
                   className="text-8xl bg-gradient-to-r from-orange-400 via-pink-400 to-purple-400 bg-clip-text text-transparent"
                 >
-                  ॐ
+                  🐦‍🔥
                 </motion.div>
 
                 {/* Orbiting Elements */}
